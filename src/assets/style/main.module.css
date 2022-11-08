@@ -1,0 +1,15 @@
+.main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  direction: rtl;
+}
+
+.table {
+  padding: 10px;
+}
+.table th,
+.table td {
+  padding: 5px 7px;
+}

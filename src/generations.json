@@ -1,0 +1,287 @@
+[
+  {
+    "id": 1,
+    "name": "אדם",
+    "born": 0,
+    "parents": {
+      "fatherID": null,
+      "momID": null
+    },
+    "partner": [
+      {
+        "id": 1,
+        "name": "חוה"
+      }
+    ],
+    "deceased": 930
+  },
+  {
+    "id": 2,
+    "name": "חוה",
+    "born": 0,
+    "parents": {
+      "fatherID": null,
+      "momID": null
+    },
+    "partner": [
+      {
+        "id": 1,
+        "name": "אדם"
+      }
+    ],
+    "deceased": null
+  },
+  {
+    "id": 3,
+    "parents": {
+      "fatherID": 1,
+      "momID": 2
+    },
+    "name": "קין",
+    "born": null,
+    "deceased": null,
+    "partner": []
+  },
+  {
+    "id": 4,
+    "parents": {
+      "fatherID": 1,
+      "momID": 2
+    },
+    "name": "הבל",
+    "born": null,
+    "deceased": null,
+    "partner": []
+  },
+  {
+    "id": 5,
+    "parents": {
+      "fatherID": 1,
+      "momID": 2
+    },
+    "name": "שת",
+    "born": 130,
+    "deceased": 912,
+    "partner": []
+  },
+  {
+    "id": 6,
+    "parents": {
+      "fatherID": 5,
+      "momID": null
+    },
+    "name": "אנוש",
+    "born": 105,
+    "deceased": 905,
+    "partner": []
+  },
+  {
+    "id": 7,
+    "parents": {
+      "fatherID": 6,
+      "momID": null
+    },
+    "name": "קינן",
+    "born": 90,
+    "deceased": 910,
+    "partner": []
+  },
+  {
+    "id": 8,
+    "parents": {
+      "fatherID": 7,
+      "momID": null
+    },
+    "name": "מהללאל",
+    "born": 70,
+    "deceased": 895,
+    "partner": []
+  },
+  {
+    "id": 9,
+    "parents": {
+      "fatherID": 8,
+      "momID": null
+    },
+    "name": "ירד",
+    "born": 65,
+    "deceased": 962,
+    "partner": []
+  },
+  {
+    "id": 10,
+    "parents": {
+      "fatherID": 9,
+      "momID": null
+    },
+    "name": "חנוך",
+    "born": 162,
+    "deceased": 365,
+    "partner": []
+  },
+  {
+    "id": 11,
+    "parents": {
+      "fatherID": 10,
+      "momID": null
+    },
+    "name": "מתושלח",
+    "born": 65,
+    "deceased": 969,
+    "partner": []
+  },
+  {
+    "id": 12,
+    "parents": {
+      "fatherID": 11,
+      "momID": null
+    },
+    "name": "למך",
+    "born": 187,
+    "deceased": 777,
+    "partner": []
+  },
+  {
+    "id": 13,
+    "parents": {
+      "fatherID": 12,
+      "momID": null
+    },
+    "name": "נח",
+    "born": 182,
+    "deceased": 950,
+    "partner": []
+  },
+  {
+    "id": 14,
+    "parents": {
+      "fatherID": 13,
+      "momID": null
+    },
+    "name": "יפת",
+    "born": 500,
+    "deceased": null,
+    "partner": []
+  },
+  {
+    "id": 15,
+    "parents": {
+      "fatherID": 13,
+      "momID": null
+    },
+    "name": "שם",
+    "born": 502,
+    "deceased": 600,
+    "partner": []
+  },
+  {
+    "id": 16,
+    "parents": {
+      "fatherID": 13,
+      "momID": null
+    },
+    "name": "חם",
+    "born": null,
+    "deceased": null,
+    "partner": []
+  },
+  {
+    "id": 17,
+    "parents": {
+      "fatherID": 15,
+      "momID": null
+    },
+    "name": "ארפכשד",
+    "born": 100,
+    "deceased": 438,
+    "partner": []
+  },
+  {
+    "id": 18,
+    "parents": {
+      "fatherID": 17,
+      "momID": null
+    },
+    "name": "שלח",
+    "born": 35,
+    "deceased": 433,
+    "partner": []
+  },
+  {
+    "id": 19,
+    "parents": {
+      "fatherID": 18,
+      "momID": null
+    },
+    "name": "עבר",
+    "born": 30,
+    "deceased": 464,
+    "partner": []
+  },
+  {
+    "id": 20,
+    "parents": {
+      "fatherID": 19,
+      "momID": null
+    },
+    "name": "פלג",
+    "born": 34,
+    "deceased": 239,
+    "partner": []
+  },
+  {
+    "id": 21,
+    "parents": {
+      "fatherID": 20,
+      "momID": null
+    },
+    "name": "רעו",
+    "born": 30,
+    "deceased": 239,
+    "partner": []
+  },
+  {
+    "id": 22,
+    "parents": {
+      "fatherID": 21,
+      "momID": null
+    },
+    "name": "שרוג",
+    "born": 32,
+    "deceased": 230,
+    "partner": []
+  },
+  {
+    "id": 23,
+    "parents": {
+      "fatherID": 22,
+      "momID": null
+    },
+    "name": "נחור",
+    "born": 30,
+    "deceased": 248,
+    "partner": []
+  },
+  {
+    "id": 24,
+    "parents": {
+      "fatherID": 23,
+      "momID": null
+    },
+    "name": "תרח",
+    "born": 29,
+    "deceased": 275,
+    "partner": []
+  },
+  {
+    "id": 25,
+    "parents": {
+      "fatherID": 24,
+      "momID": null
+    },
+    "name": "אברהם",
+    "born": 70,
+    "deceased": 175,
+    "partner": []
+  }
+]
