@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/generations-tree/static/css/main.969ac462.css",
-    "main.js": "/generations-tree/static/js/main.5b98c117.js",
+    "main.js": "/generations-tree/static/js/main.5105fff4.js",
     "index.html": "/generations-tree/index.html",
     "main.969ac462.css.map": "/generations-tree/static/css/main.969ac462.css.map",
-    "main.5b98c117.js.map": "/generations-tree/static/js/main.5b98c117.js.map"
+    "main.5105fff4.js.map": "/generations-tree/static/js/main.5105fff4.js.map"
   },
   "entrypoints": [
     "static/css/main.969ac462.css",
-    "static/js/main.5b98c117.js"
+    "static/js/main.5105fff4.js"
   ]
 }
