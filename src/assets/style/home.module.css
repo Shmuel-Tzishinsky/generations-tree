@@ -1,15 +1,13 @@
-.app {
-  min-height: 100vh;
+.home {
+  height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: center;
+  align-content: center;
 }
 
-header {
-  padding: 20px 10px;
-}
-
-footer {
-  padding: 20px 10px;
+h1,
+h2 {
+  font-family: cursive;
+  margin: 10px 0;
 }
