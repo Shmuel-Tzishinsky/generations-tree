@@ -415,7 +415,7 @@ let TREE = (() => {
           if (tree.width > this.maxWidth) this.maxWidth = tree.width;
 
           let firstWidth = this.maxWidth - tree.width;
-          tree.xPos = rootXOffset + tree.prelim + X;
+          tree.xPos = rootXOffset + tree.prelim + X + (ctx.canvas.width - this.maxPrelim - tree.width) / 2 + firstWidth;
           if (tree.text === "אדם") {
             console.log("🚀 ~ file: tree.js ~ line 416 ~ TREE ~ this.maxWidth", this.maxWidth);
             // console.log("tree.text: ", tree.text);
