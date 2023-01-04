@@ -1,0 +1,18 @@
+.home {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+h1,
+h2 {
+  font-family: cursive;
+  margin: 10px 0;
+}
+
+h2 a {
+  color: blue;
+  text-decoration: none;
+}

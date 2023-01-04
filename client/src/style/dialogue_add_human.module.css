@@ -1,0 +1,147 @@
+.container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  background-color: #00000091;
+}
+
+.container .cover {
+  width: 100%;
+  height: 100%;
+}
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: #212c30;
+  color: #ffffff;
+  padding: 10px 40px 15px 40px;
+  border-radius: 10px;
+  animation: showBlock 150ms ease-in-out;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  transform: translate(-50%, -50%) rotateX(0deg);
+}
+
+@keyframes showBlock {
+  from {
+    transform: translate(-50%, -50%) rotateX(90deg);
+    opacity: 0;
+  }
+  to {
+    transform: translate(-50%, -50%) rotateX(0deg);
+    opacity: 1;
+  }
+}
+
+@keyframes hideBlock {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    display: none;
+  }
+}
+
+.content h2 {
+  padding: 0 20px 15px 20px;
+  position: relative;
+}
+.content h2::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #888484;
+  display: inline-block;
+}
+
+.content form {
+  width: 100%;
+}
+
+.content .row {
+  width: 100%;
+  padding-bottom: 15px;
+}
+
+.content .row span {
+  float: left;
+  padding-left: 10px;
+  font-size: 1.1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+}
+.content .row input,
+.content .row textarea,
+.content .row select {
+  width: 100%;
+  padding: 5px 15px 5px 10px;
+  text-align: left;
+  border-radius: 5px 5px 0 0;
+  outline: none;
+  border: 0;
+  box-shadow: rgba(255, 255, 255, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.content .row textarea {
+  font-family: sans-serif;
+  resize: none;
+  direction: rtl;
+}
+
+.content .row select :nth-child(1) {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.content input[type="button"] {
+  border-radius: 7px;
+  height: 30px;
+  outline: none;
+  color: white;
+  font-size: 1.2rem;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+  text-align: center;
+  background: #314d5a;
+  transition: 150ms;
+  cursor: pointer;
+}
+
+.content input.back,
+.content button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  width: 80px;
+  border-radius: 7px;
+  height: 30px;
+  font-size: 16px;
+  line-height: 1.2;
+  outline: none;
+  border: 0;
+  color: white;
+  letter-spacing: 1px;
+  background: #314d5a;
+  transition: 150ms;
+  cursor: pointer;
+}
+
+.content input[type="button"]:hover,
+.content button:hover {
+  box-shadow: 0px 0 9px -2px #ffff;
+}
+.content input.back {
+  float: left;
+}
+.content button.save {
+  float: right;
+}

@@ -1,0 +1,328 @@
+[
+  {
+    "id": 0,
+    "name": "אדם",
+    "born": 0,
+    "gender": "male",
+    "partner": [
+      {
+        "id": 1,
+        "name": "חוה"
+      }
+    ],
+    "father": null,
+    "mother": null,
+    "details": null,
+    "deceased": 930
+  },
+  {
+    "id": 2,
+    "name": "קין",
+    "born": "0",
+    "gender": "male",
+    "partner": [],
+    "father": 0,
+    "mother": null,
+    "details": "זמן פטירתו של קין היה או בימי למך או במבול",
+    "deceased": null
+  },
+  {
+    "id": 3,
+    "name": "חנוך",
+    "born": "",
+    "gender": "male",
+    "partner": [],
+    "father": 2,
+    "mother": null,
+    "details": null,
+    "deceased": null
+  },
+  {
+    "id": 4,
+    "name": "עירד",
+    "born": "",
+    "gender": "male",
+    "partner": [],
+    "father": 3,
+    "mother": null,
+    "details": null,
+    "deceased": null
+  },
+  {
+    "id": 5,
+    "name": "מחויאל",
+    "born": "",
+    "gender": "male",
+    "partner": [],
+    "father": 4,
+    "mother": null,
+    "details": null,
+    "deceased": null
+  },
+  {
+    "id": 6,
+    "name": "מתושאל",
+    "born": "",
+    "gender": "male",
+    "partner": [],
+    "father": 5,
+    "mother": null,
+    "details": null,
+    "deceased": null
+  },
+  {
+    "id": 7,
+    "name": "למך",
+    "born": "",
+    "gender": "male",
+    "partner": [
+      {
+        "id": 8,
+        "name": "עדה"
+      },
+      {
+        "id": 9,
+        "name": "צילה"
+      }
+    ],
+    "father": 6,
+    "mother": null,
+    "details": null,
+    "deceased": null
+  },
+  {
+    "id": 10,
+    "name": "יבל",
+    "born": "",
+    "gender": "male",
+    "partner": [],
+    "father": 7,
+    "mother": null,
+    "details": "אבי יושב אוהל ומקנה",
+    "deceased": null
+  },
+  {
+    "id": 11,
+    "name": "יובל",
+    "born": "",
+    "gender": "male",
+    "partner": [],
+    "father": 7,
+    "mother": null,
+    "details": "אבי כל תופש כנור ועוגב",
+    "deceased": null
+  },
+  {
+    "id": 12,
+    "name": "תובל קין",
+    "born": "",
+    "gender": "male",
+    "partner": [],
+    "father": 7,
+    "mother": null,
+    "details": "לוטש כל חורש נחושת וברזל",
+    "deceased": null
+  },
+  {
+    "id": 13,
+    "name": "נעמה",
+    "born": "",
+    "gender": "female",
+    "partner": [],
+    "father": 7,
+    "mother": null,
+    "details": null,
+    "deceased": null
+  },
+  {
+    "id": 8,
+    "name": "עדה",
+    "born": "",
+    "gender": "female",
+    "partner": [
+      {
+        "id": 7,
+        "name": "למך"
+      }
+    ],
+    "father": null,
+    "mother": null,
+    "details": null,
+    "deceased": null
+  },
+  {
+    "id": 9,
+    "name": "צילה",
+    "born": "",
+    "gender": "female",
+    "partner": [
+      {
+        "id": 7,
+        "name": "למך"
+      }
+    ],
+    "father": null,
+    "mother": null,
+    "details": null,
+    "deceased": null
+  },
+  {
+    "id": 14,
+    "name": "הבל",
+    "born": "0",
+    "gender": "male",
+    "partner": [],
+    "father": 0,
+    "mother": null,
+    "details": "3 דעות בזמן פטירתו של הבל, דעה אחת 50 יום, דעה שניה 90 יום ובספר יוסיפון מובא שהבל נהרג בגיל 100 שנה.",
+    "deceased": null
+  },
+  {
+    "id": 15,
+    "name": "שת",
+    "born": "130",
+    "gender": "male",
+    "partner": [],
+    "father": 0,
+    "mother": null,
+    "details": null,
+    "deceased": "1042"
+  },
+  {
+    "id": 16,
+    "name": "אנוש",
+    "born": "235",
+    "gender": "male",
+    "partner": [],
+    "father": 15,
+    "mother": null,
+    "details": "הוא היה הראשון להמציא צורות כדי להעיר את רוח הבריות שיתפללו לאלוה באמצעותם ",
+    "deceased": "905"
+  },
+  {
+    "id": 17,
+    "name": "קינן",
+    "born": "325",
+    "gender": "male",
+    "partner": [],
+    "father": 16,
+    "mother": null,
+    "details": "בסדר הדורות מובא שלקינן נולדו שלושה בנים ושני בנות, מהללאל, עינן, מרד ואחיותיהם עדה וצילה אותן נשא למך בן מתושאל",
+    "deceased": "910"
+  },
+  {
+    "id": 18,
+    "name": "מהללאל",
+    "born": "395",
+    "gender": "male",
+    "partner": [],
+    "father": 17,
+    "mother": null,
+    "details": null,
+    "deceased": "895"
+  },
+  {
+    "id": 19,
+    "name": "ירד",
+    "born": "460",
+    "gender": "male",
+    "partner": [],
+    "father": 18,
+    "mother": null,
+    "details": null,
+    "deceased": "962"
+  },
+  {
+    "id": 20,
+    "name": "חנוך",
+    "born": "622",
+    "gender": "male",
+    "partner": [],
+    "father": 19,
+    "mother": null,
+    "details": null,
+    "deceased": "365"
+  },
+  {
+    "id": 21,
+    "name": "מתושלח",
+    "born": "687",
+    "gender": "male",
+    "partner": [],
+    "father": 20,
+    "mother": null,
+    "details": null,
+    "deceased": "969"
+  },
+  {
+    "id": 22,
+    "name": "למך",
+    "born": "874",
+    "gender": "male",
+    "partner": [],
+    "father": 21,
+    "mother": null,
+    "details": null,
+    "deceased": "777"
+  },
+  {
+    "id": 23,
+    "name": "נח",
+    "born": "2056",
+    "gender": "male",
+    "partner": [],
+    "father": 22,
+    "mother": null,
+    "details": "כל הנולדים קודם נח היו ידיהם אדוקות שלמות בלי פרוד וחילוק אצבעות ומזה הבין למך (אביו) שזה יהיה נצרך לכך לעבודת האדמה",
+    "deceased": "950"
+  },
+  {
+    "id": 24,
+    "name": "יפת",
+    "born": "1556",
+    "gender": "male",
+    "partner": [],
+    "father": 23,
+    "mother": null,
+    "details": null,
+    "deceased": null
+  },
+  {
+    "id": 25,
+    "name": "חם",
+    "born": "1557",
+    "gender": "male",
+    "partner": [],
+    "father": 23,
+    "mother": null,
+    "details": null,
+    "deceased": null
+  },
+  {
+    "id": 26,
+    "name": "שם",
+    "born": "1558",
+    "gender": "male",
+    "partner": [],
+    "father": 23,
+    "mother": null,
+    "details": null,
+    "deceased": "600"
+  },
+  {
+    "id": 1,
+    "name": "חוה",
+    "born": "0",
+    "gender": "female",
+    "partner": [
+      {
+        "id": 0,
+        "name": "אדם"
+      }
+    ],
+    "father": null,
+    "mother": null,
+    "details": "לא מצויין בשום מקום באיזה גיל חוה נפטרה, גיל הפטירה נקבע לפי הגיל בו חוה ילדה את שת",
+    "deceased": "130"
+  }
+]
