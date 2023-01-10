@@ -1,0 +1,89 @@
+.main {
+  height: 100%;
+  display: flex;
+  width: 100%;
+}
+
+/*  ---------  CANVAS  ---------   */
+
+.canvas_container {
+  padding: 10px;
+  height: 100%;
+  width: calc(100% - 170px);
+  float: right;
+}
+
+.canvas_container .canvas {
+  cursor: auto;
+  box-shadow: 0 0 10px -3px #333;
+  border-radius: 10px;
+}
+
+/*  ---------   PANEL  ---------   */
+
+.control_panel {
+  width: 170px;
+  height: 100%;
+  float: left;
+  background-color: rgb(33, 44, 48);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.control_panel .container_headers {
+  width: 100%;
+}
+
+.control_panel .title_panel {
+  color: #ffffff;
+  font-size: 1.2em;
+  padding: 22px 8px;
+  font-family: sans-serif;
+}
+
+.control_panel .btn {
+  width: calc(100% - 10px);
+  background-color: #36464e;
+  border: 0;
+  padding: 10px 0;
+  border-radius: 5px;
+  margin: 2px 5px;
+  font-size: 1rem;
+  color: #849fac;
+  cursor: pointer;
+  transition: 150ms color ease-in-out;
+}
+
+.control_panel .select_human {
+  color: #bbbbbb;
+}
+
+.control_panel .btn:hover {
+  color: white;
+}
+
+.control_panel .back_to_home_page a {
+  color: #849fac;
+  fill: #849fac;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 10px;
+  text-decoration: none;
+  font-size: 1.3rem;
+  transition: 100ms color ease-in-out;
+}
+.control_panel .back_to_home_page a:hover {
+  color: #ffffff;
+  fill: #ffffff;
+}
+.control_panel .back_to_home_page svg {
+  width: 15px;
+}
+.control_panel .back_to_home_page span {
+  padding: 0 4px;
+}
